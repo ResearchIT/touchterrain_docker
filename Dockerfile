@@ -45,3 +45,4 @@ CMD ["python", "/var/www/touchterrain/server/TouchTerrain_app.py"]
 # TODO:
 # swap 127.0.0.1 for 0.0.0.0 in Paste
 # fix ARG substitution for EE_ACCOUNT
+# fix tmp directory for output file
