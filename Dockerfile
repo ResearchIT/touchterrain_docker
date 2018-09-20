@@ -9,7 +9,7 @@ ARG GOOGLE_EARTH_ENGINE_ACCOUNT=test@test.iam.gserviceaccount.com
 RUN yum -y install epel-release
 
 # system dependencies
-RUN yum -y install python numpy python-pillow python-pip git wget unzip gcc python-devel python2-oauth2client python-jinja2
+RUN yum -y install python numpy python-pillow python-pip git wget unzip gcc python-devel python2-oauth2client python-jinja2 python-crypto python2-google-api-client pyopenssl python-webob python-paste
 
 # google app engine
 RUN wget https://storage.googleapis.com/appengine-sdks/featured/google_appengine_1.9.40.zip

@@ -1,8 +1,3 @@
-pyCrypto
-google-api-python-client
-pyOpenSSL
 earthengine-api
 webapp2
-WebOb
 vectors
-Paste
