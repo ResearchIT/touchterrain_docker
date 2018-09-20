@@ -41,3 +41,7 @@ RUN sed -i -e 's/SERVER_TYPE \= \"Apache\"/SERVER_TYPE \= \"paste\"/g' server/to
 EXPOSE 8080
 
 CMD ["python", "/var/www/touchterrain/server/TouchTerrain_app.py"]
+
+# TODO:
+# swap 127.0.0.1 for 0.0.0.0 in Paste
+# fix ARG substitution for EE_ACCOUNT
